@@ -75,16 +75,7 @@ set wildmenu
 " AUTO COMPLETE BRACKETS AND SUCH
 " ===============================
 
-" NOTE: cancel this action out usint CTRL + V
-
-noremap " ""<left>
-inoremap ' ''<left>
-inoremap ( ()<left>
-inoremap [ []<left>
-inoremap { {}<left>
-" line below provides a space b/w bracket if hit quick enough
-inoremap {<CR> {<CR>}<ESC>O
-inoremap {;<CR> {<CR>};<ESC>O
+" This section has been replaced by auto pairs plugin
 
 " highlight matching [{()}]
 set showmatch
