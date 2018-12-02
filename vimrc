@@ -4,9 +4,12 @@
 
 " enables syntax processing
 syntax enable
+if &term == "xterm"
+    set t_co=256
+endif
 
 " activate colorscheme
-colorscheme codedark
+colorscheme evening
 
 " =================
 " SPACES & TABS
@@ -44,7 +47,7 @@ set number
 set showcmd
 
 " highlight current line with cursor
-set cursorline
+" set cursorline
 
 " =================
 " SHORTCUT MAPPINGS
