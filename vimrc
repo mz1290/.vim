@@ -32,6 +32,9 @@ set expandtab
 " break line after x characters
 set textwidth=79
 
+" set color column for x characters
+set colorcolumn=79
+
 " load filetype-specific indent files
 filetype indent off
 
