@@ -29,8 +29,8 @@ set autoindent
 " use spaces instead of tabs
 set expandtab
 
-" break line after 120 characters
-set textwidth=120
+" break line after x characters
+set textwidth=79
 
 " load filetype-specific indent files
 filetype indent off
