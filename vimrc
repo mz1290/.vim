@@ -34,6 +34,7 @@ set textwidth=79
 
 " set color column for x characters
 set colorcolumn=79
+highlight ColorColumn ctermbg=2
 
 " load filetype-specific indent files
 filetype indent off
